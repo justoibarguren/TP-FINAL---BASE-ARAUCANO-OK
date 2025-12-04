@@ -1,0 +1,2 @@
+     region        edad      genero     gestion tipo_titulo        rama 
+   1.024436    1.029949    1.016488    1.015807    1.032089    1.047989 

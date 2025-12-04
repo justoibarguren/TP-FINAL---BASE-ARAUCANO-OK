@@ -1,0 +1,26 @@
+
+Call:
+lm(formula = salario ~ region + edad + genero + gestion + tipo_titulo + 
+    rama, data = df)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-179428  -44417  -16095   27131  396680 
+
+Coefficients:
+            Estimate Std. Error  t value Pr(>|t|)    
+(Intercept)  4437.98     726.41    6.109    1e-09 ***
+region      -2340.35      56.73  -41.257   <2e-16 ***
+edad         1660.29      12.24  135.660   <2e-16 ***
+genero      16701.19     200.54   83.282   <2e-16 ***
+gestion      6022.84     247.21   24.364   <2e-16 ***
+tipo_titulo  9972.58     146.61   68.022   <2e-16 ***
+rama        -8518.97      83.61 -101.889   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 66970 on 468621 degrees of freedom
+  (516 observations deleted due to missingness)
+Multiple R-squared:  0.09065,	Adjusted R-squared:  0.09064 
+F-statistic:  7786 on 6 and 468621 DF,  p-value: < 2.2e-16
+

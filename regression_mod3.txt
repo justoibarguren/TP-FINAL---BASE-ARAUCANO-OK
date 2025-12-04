@@ -1,0 +1,26 @@
+
+Call:
+lm(formula = log_sal ~ region + edad + genero + gestion + tipo_titulo + 
+    rama, data = df)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-3.5307 -0.4188  0.0405  0.4968  2.4874 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 10.3060029  0.0079000 1304.56   <2e-16 ***
+region      -0.0316816  0.0006169  -51.35   <2e-16 ***
+edad         0.0188493  0.0001331  141.62   <2e-16 ***
+genero       0.1636100  0.0021809   75.02   <2e-16 ***
+gestion      0.0591925  0.0026885   22.02   <2e-16 ***
+tipo_titulo  0.0900243  0.0015944   56.46   <2e-16 ***
+rama        -0.1011724  0.0009093 -111.27   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.7283 on 468621 degrees of freedom
+  (516 observations deleted due to missingness)
+Multiple R-squared:  0.09309,	Adjusted R-squared:  0.09308 
+F-statistic:  8017 on 6 and 468621 DF,  p-value: < 2.2e-16
+
