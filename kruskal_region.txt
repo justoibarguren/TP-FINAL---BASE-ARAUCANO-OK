@@ -1,0 +1,6 @@
+
+	Kruskal-Wallis rank sum test
+
+data:  salario by region
+Kruskal-Wallis chi-squared = 19233, df = 6, p-value < 2.2e-16
+
